@@ -1,0 +1,18 @@
+micro task queue - stores higher priority asynchronous function - (Api)
+call stack - no time delay synchronous functions placed here after execution give control to micro task queue
+call back queue - lesser proirity asynchronous function
+                - eg:- setTimeout()
+callback hell - waiting time till higher priority functions are performed.
+
+1)Regular Expression - is used to check the pattern of a given string 
+
+rules
+-----
+- it should start with up arrow 
+- end with $ symbol
+- pattern inside the square bracket []
+- eg:- ^[0-9a-zA-Z@]*{min,max}$
+
+match() - it checks the Regular expression matches with the string.
+        - it return array when the expression matches with the string else returns null.
+
